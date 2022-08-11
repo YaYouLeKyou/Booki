@@ -46,3 +46,79 @@ main {
 
 
 }
+/* section filtres */
+
+.filter {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 30px 0px; 
+    gap: 25px;
+}
+
+.filter h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.filter ul {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 17px;
+}
+
+.filter li {
+    display: flex;
+    align-items: center;
+    border: 2px solid #d9d9d9;
+    border-radius: 100px;
+    border-left: #DEEBFF;  
+    transition: 1.66s;
+}
+
+.filter a {
+    font-size: 18px;
+    font-weight: bold;
+    color:#000000; 
+    padding: 0px 12px;
+    
+    
+}
+
+.filter li:hover {
+    background-color: #DEEBFF;
+    transition: 0.8s;
+   
+   
+    
+}
+
+.blue-icon {
+    color: #0065fc;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 3 !important;
+}
+
+/* Info */
+.info {
+    display: flex;
+    align-items:center;   
+}
+
+.fa-info {
+    width: 22px;
+    height: 22px;
+    color: #0065fc;
+    border-radius: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 5px 8px;
+    font-size: 11px;
+}
+
+.info p {
+    margin-left: 15px;
+}
