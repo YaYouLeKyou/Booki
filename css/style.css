@@ -273,7 +273,7 @@ h3 {
 .card_populars_hotels img {
     width: 40%;
     border-radius: 15px 0 0 15px;
-    flex-shrink:0;
+  
 }
 
 .card_body_populars_hotels {
