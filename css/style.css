@@ -122,3 +122,96 @@ main {
 .info p {
     margin-left: 15px;
 }
+/* section hébergement */
+
+#page-accommodation {
+    margin-top:30px;
+    display: flex;
+    gap: 45px;
+}
+
+.accommodation_Marseille {
+    background-color: #F2F2F2;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    border-radius: 20px;
+    width: 67%;
+    padding: 40px;
+}
+
+.card_accommodation_Marseille {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 30px 0px 50px 0px;
+
+    
+    
+}
+
+.card_hotel {
+    min-width: 200px;
+    width: 30%;
+    height: 190px;
+    background-color:  #ffff;
+    border: 4px solid #ffff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #dfdfdf;
+    line-height: 1.5;
+}
+
+
+.card_hotel img {
+    width: 100%;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card_body_hotel {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ .card_one,.card_group_1,.card_group_2,.card_group_3,.card_group_4,.card_hotel,.card_populars_hotels {
+  
+    transition: 0.8s;
+ }
+ .card_one:hover,.card_group_1:hover,.card_group_2:hover,.card_group_3:hover,.card_group_4:hover,.card_hotel:hover,.card_populars_hotels:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+ }
+
+.card_body_hotel p, .card_populars_hotels p {
+    font-size: 14px;
+}
+
+.link_show_more {
+    text-decoration: none;
+    color:#000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.full {
+    color:#0065fc;
+    font-size: 12px;
+}
+
+.empty {
+    color: #d9d9d9;
+    font-size: 12px;
+}
+
+.stars {
+    display: flex;
+    padding-top: 5px;
+ }
