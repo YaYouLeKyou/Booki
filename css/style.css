@@ -58,6 +58,66 @@ main {
 
 
 }
+/* section recherche */
+
+
+
+.search h1 {
+    font-size: 22px;    
+}
+
+.form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.fa-map-marker-alt {
+    width: 45px;
+    height: 45px;
+    color: #000000;
+    background-color: #F2F2F2;
+    border: 3px #F2F2F2 solid;
+    padding: 13px;
+    border-radius: 15px 0px 0px 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.destination {
+    border: 2px #F2F2F2 solid;
+    font-size: 18px;
+    font-weight:bold;
+    width: 240px;
+    text-indent: 10px;
+}
+
+::-webkit-input-placeholder {  color:#afabab; opacity: 1; }
+::-moz-placeholder {  color:#afabab; opacity: 1;}
+input:-moz-placeholder {  color:#afabab; opacity: 1;} 
+/*pour que la couleur grise s'affiche dans Chrome et Firefox*/
+
+.search-rechercher {
+    border-radius: 0 13px 13px 0;
+    background:#0065fc;
+    color: #ffff;
+    border-style: none;
+    font-weight: bold;
+    width: 130px;
+    font-size: 18px;
+    opacity: 0.8;
+    transition: 0.8s;
+   
+}
+.search-rechercher:hover{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.search-icon {
+    display:none;
+}
+
+
 /* section filtres */
 
 .filter {
