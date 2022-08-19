@@ -11,17 +11,13 @@ body {
     margin: 0;
     padding: 0;
   }
+
 /* version web */
 
 a {
     text-decoration: none; 
     color:#000000; 
 }
-
-img {
-    object-fit: cover;
-}
-
 
 /* header */
 
@@ -54,7 +50,7 @@ main {
     border-top: 4px solid #0065fc;
     padding: 45px;
     color:#0065fc;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+
 
 
 }
@@ -105,20 +101,19 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     width: 130px;
     font-size: 18px;
     opacity: 0.8;
-    transition: 0.8s;
+    transition: 0.6s;
    
 }
 .search-rechercher:hover{
     opacity: 1;
-    transition: 0.8s;
+    transition: 0.6s;
 }
 
 .search-icon {
     display:none;
 }
 
-
-/* section filtres */
+/* section filter */
 
 .filter {
     display: flex;
@@ -159,7 +154,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
 
 .filter li:hover {
     background-color: #DEEBFF;
-    transition: 0.8s;
+    transition: 0.6s;
    
    
     
@@ -173,6 +168,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     height: 45px;
     text-align: center;
     line-height: 3 !important;
+    margin: -2px;
 }
 
 /* Info */
@@ -196,10 +192,13 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
 }
 /* section hébergement */
 
+
 #page-accommodation {
     margin-top:30px;
     display: flex;
     gap: 45px;
+    justify-content: ;
+    display: flex;
 }
 
 .accommodation_Marseille {
@@ -254,12 +253,11 @@ h3 {
 }
 
  .card_one,.card_group_1,.card_group_2,.card_group_3,.card_group_4,.card_hotel,.card_populars_hotels {
-  
-    transition: 0.8s;
+    transition: 0.6s;
  }
  .card_one:hover,.card_group_1:hover,.card_group_2:hover,.card_group_3:hover,.card_group_4:hover,.card_hotel:hover,.card_populars_hotels:hover {
     transform: scale(1.1);
-    transition: 0.8s;
+    transition: 0.6s;
  }
 
 .card_body_hotel p, .card_populars_hotels p {
@@ -288,7 +286,7 @@ h3 {
     padding-top: 5px;
  }
 
-/*Les plus populaires*/
+ /*les plus populaires*/
 
 .page_populars {
     background-color: #F2F2F2;
@@ -333,7 +331,7 @@ h3 {
 .card_populars_hotels img {
     width: 40%;
     border-radius: 15px 0 0 15px;
-  
+    flex-shrink:0;
 }
 
 .card_body_populars_hotels {
@@ -349,69 +347,68 @@ h3 {
     padding-top: 35px;
  }
 
-/* Activités à Marseille */
+ /* Activités à Marseille */
 
  #page-activities {
-     padding-top: 50px;
- }
+    padding-top: 50px;
+}
 
 .card_activities {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
-    margin-top:30px;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;  
+   margin-top:30px;
 }
 
 .card_activities h3 {
-    padding: 6%;  
+   padding: 6%;  
 }
 
 .card_activities img {
-    width: 100%;
-    border-radius: 25px 25px 0px 0px;
-    box-shadow: 1px 1px 10px #dfdfdf;
+   width: 100%;
+   border-radius: 25px 25px 0px 0px;
+   box-shadow: 1px 1px 10px #dfdfdf;
 }
 
 .card_one { 
-    width: 23%;
-    background-color:  #ffff;
-    box-shadow: 1px 1px 10px #dfdfdf;
-    border-radius: 25px 25px 25px 25px; 
+   width: 23%;
+   background-color:  #ffff;
+   box-shadow: 1px 1px 10px #dfdfdf;
+   border-radius: 25px 25px 25px 25px; 
 }
 
 .card_group {
-    width: 23%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;    
+   width: 23%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;    
 }
 
 .card_group_1,.card_group_2,.card_group_3,.card_group_4 {
-    background-color:  #ffff;
-    box-shadow: 1px 1px 10px #dfdfdf;
-    border-radius: 25px 25px 25px 25px; 
+   background-color:  #ffff;
+   box-shadow: 1px 1px 10px #dfdfdf;
+   border-radius: 25px 25px 25px 25px; 
 }
 
 .card_one img {
-    height: 380px;
+   height: 380px;
 }
 
 .card_group_1 img{  
-    height: 180px;
+   height: 180px;
 }
 
 .card_group_2 img{
-    height: 100px;
+   height: 100px;
 }
 
 .card_group_3 img{
-    height: 130px;
+   height: 130px;
 }
 
 .card_group_4 img{
-    height: 140px;
+   height: 140px;
 }
-
 /* footer*/
 footer {
     margin-top:40px;
@@ -431,12 +428,13 @@ footer li {
     font-size: 15.5px; 
     list-style: none;
     padding-top: 8px;
-    transition: 0.8s;
+    transition: 0.6s;
    
 }
 footer li:hover{
-    text-shadow:#0065fc 1px 0 10px;
-    transition: 0.8s;
+    text-decoration: underline;
+    transition: 0.6s;
+
 }
 
 /* MEDIA QUERIES */
