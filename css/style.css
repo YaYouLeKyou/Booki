@@ -89,8 +89,10 @@ main {
     font-size: 18px;
     font-weight:bold;
     width: 240px;
-    text-indent: 10px;
+    text-indent: 10px; 
 }
+
+/* text-indent => alinea */
 
 ::-webkit-input-placeholder {  color:#afabab; opacity: 1; }
 ::-moz-placeholder {  color:#afabab; opacity: 1;}
@@ -127,6 +129,8 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     margin: 30px 0px; 
     gap: 25px;
 }
+
+/* gap => espace entre les lignes et les colonnes */
 
 .filter h2 {
     font-weight: bold;
@@ -336,7 +340,6 @@ h3 {
 .card_populars_hotels img {
     width: 40%;
     border-radius: 15px 0 0 15px;
-    flex-shrink:0;
 }
 
 .card_body_populars_hotels {
