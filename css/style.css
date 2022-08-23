@@ -544,6 +544,9 @@ footer li:hover{
         width: 100%;
         padding:12px;
     }
+    section{
+        min-width: 360px;
+    }
 
     .card_hotel {
         width: 100%;
@@ -584,6 +587,7 @@ footer li:hover{
     }
 
     footer {
+        min-width: 360px;
         display: flex;
         flex-direction: column;
         gap: 30px;
