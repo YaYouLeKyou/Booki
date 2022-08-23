@@ -48,7 +48,7 @@ main {
 
 
 .menu-item {
-    padding: 0 45px;
+    padding: 0;
 }
 
 .menu-item:hover {
@@ -475,12 +475,10 @@ footer li:hover{
 
     nav {
         display: flex;
-        width:100%;
-        text-align:center;
+        width:100%; 
     }
     
     .menu-item {
-        justify-content: space-around;
         text-align: center;
         border-bottom: 4px solid #F2F2F2;
         width: 50%;
