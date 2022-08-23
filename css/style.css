@@ -412,9 +412,10 @@ h3 {
 footer {
     margin-top:40px;
     display: flex;
+    justify-content: space-between;
     background: #F2F2F2;
-    padding:45px; 
-    gap: 220px;  
+    padding:3rem;
+    padding-right: 25%;
     
 }
 
