@@ -216,7 +216,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     flex-wrap:wrap;
     border-radius: 20px;
     width: 67%;
-    padding: 40px;
+    padding: 2rem;
 }
 
 .card_accommodation_Marseille {
@@ -296,7 +296,7 @@ h3 {
     flex-direction: column;
     border-radius: 20px;
     width: 33%;
-    padding: 40px 40px 0px 40px;
+    padding: 2rem;
 }
 
 .page_populars h2 {
@@ -489,7 +489,7 @@ footer li:hover{
     .menu-item:hover {
         border-top: none;
         border-bottom: 4px solid #0065fc;
-        padding: 0px  
+        padding: 0;  
     }
 
     .search-rechercher {
@@ -521,16 +521,12 @@ footer li:hover{
         margin: 20px;
     }
 
-    #page-activities{
-        margin: 1rem;
-    }
-
 
     .page_populars {
         background-color: #F2F2F2;
         border-radius: 0px;
         width: 100%;
-        /* padding: 40px 12px 0px 12px; */
+        padding: 1rem;
     }
 
 
@@ -539,7 +535,7 @@ footer li:hover{
         background-color: #ffff;
         border-radius: 0px;
         width: 100%;
-      
+        padding: 1rem;     
     }
 
     .card_hotel {
@@ -575,7 +571,11 @@ footer li:hover{
     }
 
     .card_accommodation_Marseille {
-        gap:25px;
+        gap:30px;
+    }
+
+    #page-activities{
+        margin: 1rem;
     }
 
     footer {
@@ -583,7 +583,8 @@ footer li:hover{
         display: flex;
         flex-direction: column;
         gap: 30px;
-        padding: 40px 20px;     
+        padding: 1rem;
+  
       }
   
     footer h2 {
