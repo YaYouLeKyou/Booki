@@ -140,7 +140,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
 .filter ul {
     display: flex;
     flex-wrap: wrap; 
-    gap: 17px;
+    gap: 18px;
 }
 
 .filter li {
@@ -149,7 +149,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     border: 2px solid #d9d9d9;
     border-radius: 100px;
     border-left: #DEEBFF;  
-    transition: 1.66s;
+    transition: 1.60s;
 }
 
 .filter a {
@@ -295,7 +295,6 @@ h3 {
     flex-direction: column;
     border-radius: 20px;
     width: 33%;
-    min-width: 350px;
     padding: 40px 40px 0px 40px;
 }
 
