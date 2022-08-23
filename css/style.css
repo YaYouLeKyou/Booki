@@ -1,7 +1,7 @@
 body {
     font-family:'Raleway', sans-serif;
     color:#000000;
-    font-size: 16px;
+    font-size: 0.94em;
 }
 
 *, *:before, *:after {
@@ -64,7 +64,7 @@ main {
 
 
 .search h1 {
-    font-size: 22px;    
+    font-size: 1.2em;    
 }
 
 .form {
@@ -81,12 +81,12 @@ main {
     padding: 13px;
     border-radius: 15px 0px 0px 15px;
     text-align: center;
-    font-size: 16px;
+    font-size: 0.94em;
 }
 
 .destination {
     border: 2px #F2F2F2 solid;
-    font-size: 18px;
+    font-size: 1em;
     font-weight:bold;
     width: 240px;
     text-indent: 10px; 
@@ -106,7 +106,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     border-style: none;
     font-weight: bold;
     width: 130px;
-    font-size: 18px;
+    font-size: 1em;
     opacity: 0.8;
     transition: 0.6s;
    
@@ -134,7 +134,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
 
 .filter h2 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .filter ul {
@@ -153,7 +153,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
 }
 
 .filter a {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     color:#000000; 
     padding: 0px 12px;
@@ -193,7 +193,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     border-radius: 100%;
     border: 1px solid #d9d9d9;
     padding: 5px 8px;
-    font-size: 11px;
+    font-size: 0.72em;
 }
 
 .info p {
@@ -206,7 +206,6 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
     margin-top:30px;
     display: flex;
     gap: 45px;
-    justify-content: ;
     display: flex;
 }
 
@@ -223,7 +222,7 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
 .card_accommodation_Marseille {
     display:flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     gap: 30px;
     padding: 30px 0px 50px 0px;
 
@@ -257,37 +256,30 @@ input:-moz-placeholder {  color:#afabab; opacity: 1;}
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 0.94em;
     font-weight: bold;
 }
 
- .card_one,.card_group_1,.card_group_2,.card_group_3,.card_group_4,.card_hotel,.card_populars_hotels {
-    transition: 0.6s;
- }
- .card_one:hover,.card_group_1:hover,.card_group_2:hover,.card_group_3:hover,.card_group_4:hover,.card_hotel:hover,.card_populars_hotels:hover {
-    transform: scale(1.1);
-    transition: 0.6s;
- }
 
 .card_body_hotel p, .card_populars_hotels p {
-    font-size: 14px;
+    font-size: 0.94em;
 }
 
 .link_show_more {
     text-decoration: none;
     color:#000000;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
 }
 
 .full {
     color:#0065fc;
-    font-size: 12px;
+    font-size: 0.72em;
 }
 
 .empty {
     color: #d9d9d9;
-    font-size: 12px;
+    font-size: 0.72em;
 }
 
 .stars {
@@ -310,7 +302,6 @@ h3 {
 .page_populars h2 {
     display: flex;
     justify-content: space-between;
-    font-size: 22px;
     align-items: center;
 }
 
@@ -322,7 +313,7 @@ h3 {
 }
 
 .card_populars_hotels {
-    min-width: 280px;
+
     height: 140px;
     background-color:  #ffff;
     border: 5px solid #ffff;
@@ -428,12 +419,12 @@ footer {
 }
 
 footer h2 {
-    font-size:18px;
+    font-size:1em;
     margin-bottom: 20px;   
 }
 
 footer li {
-    font-size: 15.5px; 
+    font-size: 0.94em; 
     list-style: none;
     padding-top: 8px;
     transition: 0.6s;
@@ -491,7 +482,7 @@ footer li:hover{
         border-style: none;
         font-weight: bold;
         min-width: 50px;
-        font-size: 18px;
+        font-size: 1em;
         margin-left: -20px;
     }
 
