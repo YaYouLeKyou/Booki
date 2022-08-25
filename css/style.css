@@ -459,8 +459,12 @@ footer li:hover{
 
     .card_hotel {
         width: 100%;
-        height: 250px;
+        height: 220px;
 
+    }
+
+    .card_hotel img{
+        height: 140px;
     }
 }
 
