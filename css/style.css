@@ -97,7 +97,7 @@ main {
 ::-webkit-input-placeholder {  color:#000000; opacity: 1; }
 ::-moz-placeholder {  color:#000000; opacity: 1;}
 input:-moz-placeholder {  color:#000000; opacity: 1;} 
-/*pour que la couleur grise s'affiche dans Chrome et Firefox*/
+/*prefix pour que la couleur noir s'affiche dans Chrome et Firefox*/
 
 .search-rechercher {
     border-radius: 0 13px 13px 0;
